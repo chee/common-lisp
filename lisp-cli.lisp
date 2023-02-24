@@ -13,8 +13,8 @@ by rabbits for rabbits
 
 Commands:
 
-	lisp compile <system> - Run asdf:make on system
-	lisp eval '<lisp forms>' - Evaluate some lisp (quietly) with sbcl
+	lisp compile <SYSTEM> - Run `asdf:make' on SYSTEM
+	lisp eval '<LISP-FORMS>' - Evaluate some lisp (quietly) with sbcl
 "))
 
 (defun lisp-compile (&rest args)
