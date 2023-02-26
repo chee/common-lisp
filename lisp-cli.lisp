@@ -10,7 +10,7 @@
 
 (defmacro defcommand (command-name &rest body)
   "Create a command and add it to *COMMANDS*."
-  (let ((command-fn
+  (let* ((command-fn
           (intern (concatenate 'string
             "CLI-COMMAND-"
             (symbol-name command-name)))))
@@ -18,6 +18,12 @@
        (defun ,command-fn (&rest arguments)
          ,@body)
        (setf (getf *commands* ,(intern (symbol-name command-name) :keyword)) #',command-fn))))
+
+
+(defun depends-on-p (system dependency)
+  (member dependency
+    (mapcar #'symbol-name (asdf:component-sideway-dependencies system))
+    :test #'string=))
 
 ;; TODO revisit when you know everything
 (defcommand build
@@ -60,30 +66,45 @@
       args)
     list))
 
+(defun read-eval (string)
+  (eval (read-from-string (format nil "(progn ~A)" string))))
+
+(defun eval-arguments (arguments)
+  (mapcar #'read-eval arguments))
+
+
+(defun longest-length (strings)
+  (reduce
+    (lambda (len arg)
+      (max len (length arg)))
+    strings
+    :initial-value 0))
+
+
+(defun repeat-char (char times)
+  (format nil "~v@{~A~:*~} " times char))
+
+(defcommand table
+  "<expression> [expression...] - Evaluate expressions and print the results in a table."
+  (let ((longest-length (longest-length arguments)))
+    (mapcar
+      (lambda (sexp)
+        (let ((spaces-after (- longest-length (length sexp)))
+               (result (read-eval sexp)))
+          (format t "~A~A	~A~%"
+            sexp
+            (repeat-char #\space spaces-after)
+            result)))
+      arguments)))
+
+(defcommand print
+  "<expression> [expression...] - Evaluate expression(s) and print the outcome."
+  (princ (car (last (eval-arguments arguments))))
+    (fresh-line))
+
 (defcommand eval
-  "<expression> [expression...] - Evaluate some lisp (quietly) with sbcl."
-  (uiop:run-program
-    `("sbcl"
-       "--noinform"
-       ,@(prefix-args arguments "--eval")
-       "--quit")
-    :output :interactive))
-
-(defun depends-on-p (system dependency)
-  (member dependency
-    (mapcar #'symbol-name (asdf:component-sideway-dependencies system))
-    :test #'string=))
-
-
-(defcommand run
-  "<file> [file...] - Load and run lisp files (quietly) with sbcl."
-  (uiop:run-program
-    `("sbcl"
-       "--noinform"
-       ,@(prefix-args arguments "--load")
-       "--quit")
-    :output :interactive))
-
+  "<expression> [expression...] - Evaluate lisp experessions."
+  (eval-arguments arguments))
 
 (defun print-help-and-die (&rest errors)
   (princ "Lisp CLI.")              (fresh-line)
