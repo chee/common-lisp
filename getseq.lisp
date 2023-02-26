@@ -1,6 +1,6 @@
 (defpackage :getseq
 	(:use :cl)
-	(:export *seed* *vowel* *consonant* random-item random-number getseq main))
+	(:export *seed* *vowel* *consonant* random-item random-number make-fresh-seed getseq main))
 (in-package :getseq)
 
 (defvar *seed* (isaac:init-kernel-seed :IS64 t))
@@ -39,8 +39,10 @@
               (format-string (if at-end "~{~A~}" "~{~A~}-")))
 	      (format stream format-string (word)))))
 
+(defun make-fresh-seed nil (isaac:init-kernel-seed :IS64 t))
+
 (defun main nil
   (let ((length (first (uiop:command-line-arguments)))
-         (*seed* (isaac:init-kernel-seed :IS64 t)))
+         (*seed* (make-fresh-seed)))
     (getseq (if length (parse-integer length) 5))
 	  (fresh-line)))

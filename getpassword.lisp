@@ -1,5 +1,5 @@
 (defpackage :getpassword
-  (:import-from :getseq *vowel* *consonant* getseq random-number random-item)
+  (:import-from :getseq *vowel* *consonant* getseq random-number random-item make-fresh-seed)
   (:use :cl)
   (:export main password))
 (in-package :getpassword)
