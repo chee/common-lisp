@@ -4,5 +4,5 @@
 	:build-operation "program-op"
 	:build-pathname "getseq"
 	:entry-point "getseq:main"
-	:depends-on (#:secure-random)
+	:depends-on (#:cl-isaac)
 	:components ((:file "getseq")))

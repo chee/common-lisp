@@ -1,8 +1,16 @@
 (defpackage :getseq
 	(:use :cl)
-	(:export *vowel* *consonant* getseq main))
-
+	(:export *seed* *vowel* *consonant* random-item random-number getseq main))
 (in-package :getseq)
+
+(defvar *seed* (isaac:init-kernel-seed :IS64 t))
+
+(defun random-number (max)
+  (let* ((max (- max 1))
+          (number (isaac:rand-bits-64 *seed* (integer-length max))))
+    (if (> number max)
+      (random-number max)
+      number)))
 
 (defparameter *vowel*
 	'(#\a #\e #\i #\o #\u))
@@ -12,7 +20,7 @@
 		 #\v #\w #\y #\z))
 
 (defun random-item (seq)
-	(nth (secure-random:number (length seq)) seq))
+	(nth (random-number (length seq)) seq))
 
 (defun consonant nil
 	(random-item *consonant*))
@@ -23,15 +31,16 @@
 (defun word nil
 	(list (consonant) (vowel) (consonant) (vowel) (consonant)))
 
-(defun getseq (length)
-	(let (seq)
-		(dotimes (n length)
-			(push (concatenate 'string (word)) seq))
-		(format nil "~{~A~^-~}" seq)))
+(defun getseq (length &key (stream *standard-output*))
+  (dotimes (n length)
+      (let* ((end (- length 1))
+              (at-end (= n end))
+              ;; don't include a hyphen at the end
+              (format-string (if at-end "~{~A~}" "~{~A~}-")))
+	      (format stream format-string (word)))))
 
 (defun main nil
-  (let* ((length-arg (first (uiop:command-line-arguments)))
-          (length (if length-arg (parse-integer length-arg) 5)))
-    (dotimes (n length)
-			(format t (if (= n (- length 1)) "~{~A~}" "~{~A~}-") (word)))
-	  	  (fresh-line)))
+  (let ((length (first (uiop:command-line-arguments)))
+         (*seed* (isaac:init-kernel-seed :IS64 t)))
+    (getseq (if length (parse-integer length) 5))
+	  (fresh-line)))
