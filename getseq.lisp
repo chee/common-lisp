@@ -29,9 +29,9 @@
 			(push (concatenate 'string (word)) seq))
 		(format nil "~{~A~^-~}" seq)))
 
-(defun main (&rest _)
-  ;; buildapp compatability
-  (declare (ignore _))
-  (let ((length (first (uiop:command-line-arguments))))
-	  (princ (getseq (if length (parse-integer length) 5)))
-	  (fresh-line)))
+(defun main nil
+  (let* ((length-arg (first (uiop:command-line-arguments)))
+          (length (if length-arg (parse-integer length-arg) 5)))
+    (dotimes (n length)
+			(format t (if (= n (- length 1)) "~{~A~}" "~{~A~}-") (word)))
+	  	  (fresh-line)))
