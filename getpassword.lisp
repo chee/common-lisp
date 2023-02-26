@@ -1,5 +1,5 @@
 (defpackage :getpassword
-  (:import-from :getseq *VOWEL* *CONSONANT* getseq)
+  (:import-from :getseq *vowel* *consonant* getseq random-number random-item)
   (:use :cl)
   (:export main password))
 (in-package :getpassword)
@@ -11,29 +11,22 @@
 
 (defun letter nil
    (char-upcase
-      (nth (secure-random:number (length *alphabet*)) *alphabet*)))
+      (random-item *alphabet*)))
 
 (defun digit nil
-  (digit-char (secure-random:number 10)))
+  (digit-char (random-number 10)))
 
-(defun password (length)
-	(let
-      ((special-place (secure-random:number length))
-         password)
-      (dotimes (n length)
-         (when (= n special-place)
-            (push (concatenate 'string
-                     (list (letter) (digit)))
-               password))
-         (push (getseq 1) password))
-     (format nil "~{~A~^-~}" password)))
+(defun password (length &key (stream *standard-output*))
+	(let ((special-place (random-number length))
+         (special-part (list (letter) (digit))))
+    (dotimes (n length)
+      (when (= n special-place)
+        (format stream "~{~A~}-" special-part))
+      (getseq 1 :stream stream)
+      (unless (= n (- length 1)) (format stream "-")))))
 
-
-(defun main (&rest _)
-  ;; buildapp compatability
-  (declare (ignore _))
-  (let ((length (first (uiop:command-line-arguments))))
-    (princ
-      (password
-        (if length (parse-integer length) 5))))
-  (fresh-line))
+(defun main nil
+  (let ((length (first (uiop:command-line-arguments)))
+         (getseq:*seed* (isaac:init-kernel-seed :IS64 t)))
+    (password (if length (parse-integer length) 5))
+    (fresh-line)))

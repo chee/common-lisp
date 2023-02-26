@@ -4,5 +4,5 @@
 	:build-operation "program-op"
 	:build-pathname "getpassword"
 	:entry-point "getpassword:main"
-	:depends-on (#:getseq #:secure-random)
+	:depends-on (#:getseq)
 	:components ((:file "getpassword")))
