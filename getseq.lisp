@@ -29,7 +29,9 @@
 			(push (concatenate 'string (word)) seq))
 		(format nil "~{~A~^-~}" seq)))
 
-(defun main nil
+(defun main (&rest _)
+  ;; buildapp compatability
+  (declare (ignore _))
   (let ((length (first (uiop:command-line-arguments))))
 	  (princ (getseq (if length (parse-integer length) 5)))
 	  (fresh-line)))
