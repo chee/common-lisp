@@ -27,6 +27,6 @@
 
 (defun main nil
   (let ((length (first (uiop:command-line-arguments)))
-         (getseq:*seed* (isaac:init-kernel-seed :IS64 t)))
+         (getseq:*seed* (getseq:make-fresh-seed)))
     (password (if length (parse-integer length) 5))
     (fresh-line)))
