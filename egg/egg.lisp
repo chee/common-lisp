@@ -258,13 +258,12 @@
 (defun end (game why)
   (case why
     ('die (format t "chicken hole :(")
-      (setf *world* (create-world (or (handler-case (elt *levels* *level*)
-                            (error (random-level)))
+      (setf *world* (create-world
+                      (or (nth *level* *levels*)
                         (random-level)))))
     ('win (format t "chicken egg hole :)")
       (setf *world* (create-world
-                      (or (handler-case (elt *levels* (incf *level*))
-                            (error (random-level)))
+                      (or (nth (incf *level*) *levels*)
                         (random-level)))))))
 
 (defmacro funcase (keyform &rest clauses)
