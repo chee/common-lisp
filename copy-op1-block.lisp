@@ -10,19 +10,20 @@
 (defconstant +ssnd-start+ (vecstring "SSND"))
 
 (defvar
-  input-file
+  *_input-file_*
   #p"/Users/chee/db/quiet party/op1/drum/piano/bottompiano-t.aif")
 
 (defvar
-  output-file
+  *_output-file_*
   #p"/Users/chee/db/quiet party/op1/drum/piano/toppiano.aif")
 
 (defun word (stream)
-  (vector
-    (read-byte stream)
-    (read-byte stream)
-    (read-byte stream)
-    (read-byte stream)))
+  (let ((word (make-array 4
+                :element-type
+                '(unsigned-byte 8)
+                :initial-element 0)))
+    (read-sequence word stream)
+    word))
 
 (defun read-words-until (terminator stream)
   (let ((count 0))
@@ -59,10 +60,9 @@
         :ELEMENT-TYPE '(unsigned-byte 8))
       (read-words-until +op1-json-start+ target-stream)
       (write-string-as-bytes op1-json target-stream)
-      ;; lol, i should grab the length block before the "op-1"
-
+      ;; lol, i should grab the length block before "op-1"
       ;; the aifc spec explains it's `APPL` then a 32-bit int for the
-      ;; length. the length is always 1004 in these op-1 blocks
+      ;; length. but, the length is always 1004 in these op-1 blocks
       (loop
         until (peek-char #\S)
         do (write-byte \space)))))
