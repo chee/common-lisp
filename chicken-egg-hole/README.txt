@@ -593,35 +593,59 @@ purpose.
 
 Chicken Egg Hole: A Game of Metaphors and Redemption
 
-Introduction:
-Chicken Egg Hole is a game that transcends the boundaries of traditional gaming. It is a game that uses the chicken and egg as symbols for birth, life, and rebirth. The hole is a symbol of the void, the emptiness that needs to be filled. The game is a metaphor for the cycle of life, death, and rebirth.
+Introduction: Chicken Egg Hole is a game that transcends the boundaries of
+traditional gaming. It is a game that uses the chicken and egg as symbols for
+birth, life, and rebirth. The hole is a symbol of the void, the emptiness that
+needs to be filled. The game is a metaphor for the cycle of life, death, and
+rebirth.
 
-The Players:
-In Chicken Egg Hole, the player takes on the role of the chicken, the egg, or the hole. Each character represents a different stage of life, and each has its own unique perspective on the game.
+The Players: In Chicken Egg Hole, the player takes on the role of the chicken,
+the egg, or the hole. Each character represents a different stage of life, and
+each has its own unique perspective on the game.
 
-Colonel Sanders:
-Colonel Sanders is an obstacle in the game. He represents the harsh reality of life, the challenges that we face, and the mistakes we make. Through his regrets, he shows us that we can learn from our mistakes and that we can make things right.
+Colonel Sanders: Colonel Sanders is an obstacle in the game. He represents the
+harsh reality of life, the challenges that we face, and the mistakes we
+make. Through his regrets, he shows us that we can learn from our mistakes and
+that we can make things right.
 
-The Holy Hole:
-The hole in Chicken Egg Hole represents the void, the emptiness that we all feel at some point in our lives. It represents the need to be filled, the need for purpose and meaning.
+The Holy Hole: The hole in Chicken Egg Hole represents the void, the emptiness
+that we all feel at some point in our lives. It represents the need to be
+filled, the need for purpose and meaning.
 
-The Chicken and Egg:
-The chicken and egg are symbols of birth, life, and rebirth. They represent the cycle of life, death, and rebirth that we all go through. They remind us that life is a journey, and that we must embrace every stage of it.
+The Chicken and Egg: The chicken and egg are symbols of birth, life, and
+rebirth. They represent the cycle of life, death, and rebirth that we all go
+through. They remind us that life is a journey, and that we must embrace every
+stage of it.
 
-Conclusion:
-Chicken Egg Hole is a game that challenges us to think about life in a new way. It is a game that uses symbols and metaphors to help us understand the cycle of life, death, and rebirth. It is a game that reminds us that we can learn from our mistakes, that we can make things right, and that we can find purpose and meaning in the emptiness that we all feel at some point in our lives.
+Conclusion: Chicken Egg Hole is a game that challenges us to think about life in
+a new way. It is a game that uses symbols and metaphors to help us understand
+the cycle of life, death, and rebirth. It is a game that reminds us that we can
+learn from our mistakes, that we can make things right, and that we can find
+purpose and meaning in the emptiness that we all feel at some point in our
+lives.
 
 CHICKEN EGG HOLE: A GAME OF STRATEGY AND METAPHORS
 
-Welcome to Chicken Egg Hole, a game that will take you on a journey of self-discovery and enlightenment. This game is not just about chickens, eggs, and holes. It's about the complexities of life and the universe.
+Welcome to Chicken Egg Hole, a game that will take you on a journey of
+self-discovery and enlightenment. This game is not just about chickens, eggs,
+and holes. It's about the complexities of life and the universe.
 
-Join the chicken, the egg, and Colonel Sanders in a quest to uncover the mysteries of existence. The game is designed to challenge your mind and test your strategic abilities.
+Join the chicken, the egg, and Colonel Sanders in a quest to uncover the
+mysteries of existence. The game is designed to challenge your mind and test
+your strategic abilities.
 
-Experience the thrill of maneuvering the chicken, laying the egg, and avoiding the obstacles. Each move you make will have consequences that can either lead you to victory or defeat. The game is easy to learn but difficult to master, so be prepared to put your skills to the test.
+Experience the thrill of maneuvering the chicken, laying the egg, and avoiding
+the obstacles. Each move you make will have consequences that can either lead
+you to victory or defeat. The game is easy to learn but difficult to master, so
+be prepared to put your skills to the test.
 
-The holy hole is not just a simple objective to reach. It represents the birth of the universe and the endless possibilities that come with it. The chicken, the egg, and Colonel Sanders each have their own perspectives on the importance of the hole, and it's up to you to discover its true significance.
+The holy hole is not just a simple objective to reach. It represents the birth
+of the universe and the endless possibilities that come with it. The chicken,
+the egg, and Colonel Sanders each have their own perspectives on the importance
+of the hole, and it's up to you to discover its true significance.
 
-So, are you ready to take on the challenge and unlock the secrets of Chicken Egg Hole? Get ready to embark on an adventure unlike any other.
+So, are you ready to take on the challenge and unlock the secrets of Chicken Egg
+Hole? Get ready to embark on an adventure unlike any other.
 
 
 README.txt
@@ -630,55 +654,105 @@ CHICKEN EGG HOLE
 
 Copyright (c) 1950, Colonel Sanders
 
-DESCRIPTION:
-Chicken Egg Hole is a game that has been enjoyed by all ages. The objective of the game is to navigate a chicken through a maze-like level, and lay an egg in the hole at the end. But watch out for obstacles, including the infamous Colonel Sanders himself!
+DESCRIPTION: Chicken Egg Hole is a game that has been enjoyed by all ages. The
+objective of the game is to navigate a chicken through a maze-like level, and
+lay an egg in the hole at the end. But watch out for obstacles, including the
+infamous Colonel Sanders himself!
 
-INSTALLATION:
-To play Chicken Egg Hole, simply insert the game cartridge into your AT&T 1950s-era gaming console, and power it on. The game will load automatically.
+INSTALLATION: To play Chicken Egg Hole, simply insert the game cartridge into
+your AT&T 1950s-era gaming console, and power it on. The game will load
+automatically.
 
-GAMEPLAY:
-Use the joystick to control the movement of the chicken. Navigate through the level, avoiding obstacles and collecting power-ups along the way. The ultimate goal is to lay an egg in the hole at the end of the level.
+GAMEPLAY: Use the joystick to control the movement of the chicken. Navigate
+through the level, avoiding obstacles and collecting power-ups along the
+way. The ultimate goal is to lay an egg in the hole at the end of the level.
 
 FEATURES:
 
-    Intense and challenging gameplay
-    Retro 1950s graphics and sound effects
-    Unique obstacles, including the one and only Colonel Sanders
-    Power-ups to help you on your journey
+    Intense and challenging gameplay Retro 1950s graphics and sound effects
+    Unique obstacles, including the one and only Colonel Sanders Power-ups to
+    help you on your journey
 
-DISCLAIMER:
-Playing Chicken Egg Hole may cause addictive behavior. Please play responsibly.
+DISCLAIMER: Playing Chicken Egg Hole may cause addictive behavior. Please play
+responsibly.
 
 Enjoy the classic fun of Chicken Egg Hole on your AT&T gaming console today!
 
 Welcome to Infosystems Entertainment's latest creation - Chicken Egg Hole!
 
-Embark on a thrilling adventure with our game that will keep you entertained for hours. Step into the world of our iconic characters, including the heroic chicken, the mystical egg, and the formidable Colonel Sanders.
+Embark on a thrilling adventure with our game that will keep you entertained for
+hours. Step into the world of our iconic characters, including the heroic
+chicken, the mystical egg, and the formidable Colonel Sanders.
 
-Our game combines strategy and skill as you navigate through a series of increasingly challenging levels, each with its own unique obstacles and surprises. Avoid the menacing Colonel Sanders and his dangerous sander traps while collecting eggs and reaching the holy hole.
+Our game combines strategy and skill as you navigate through a series of
+increasingly challenging levels, each with its own unique obstacles and
+surprises. Avoid the menacing Colonel Sanders and his dangerous sander traps
+while collecting eggs and reaching the holy hole.
 
-With stunning graphics and immersive gameplay, Chicken Egg Hole is the perfect addition to your gaming collection. So what are you waiting for? Join the adventure today and experience the excitement for yourself!
+With stunning graphics and immersive gameplay, Chicken Egg Hole is the perfect
+addition to your gaming collection. So what are you waiting for? Join the
+adventure today and experience the excitement for yourself!
 
-The concept behind Chicken Egg Hole is as unique as it is intriguing - the game is generated entirely by chickens! Using their natural pecking instincts, the feathered creators of Chicken Egg Hole leave patterns and shapes in the ground that are then used to generate the game's levels. It's an innovative and playful approach to game design that truly sets Chicken Egg Hole apart from the rest.
+The concept behind Chicken Egg Hole is as unique as it is intriguing - the game
+is generated entirely by chickens! Using their natural pecking instincts, the
+feathered creators of Chicken Egg Hole leave patterns and shapes in the ground
+that are then used to generate the game's levels. It's an innovative and playful
+approach to game design that truly sets Chicken Egg Hole apart from the rest.
 
-As the sun rises on the farm, the chickens gather around in a circle, pecking at the soft earth. Their movements are slow and deliberate, forming shapes and patterns on the ground. These shapes are the key to the creation of the levels in Chicken Egg Hole.
+As the sun rises on the farm, the chickens gather around in a circle, pecking at
+the soft earth. Their movements are slow and deliberate, forming shapes and
+patterns on the ground. These shapes are the key to the creation of the levels
+in Chicken Egg Hole.
 
-The chickens have been specially trained by a team of experts from Infosystems Entertainment, working closely with the farm to develop a unique system for level generation. Using state-of-the-art technology, the shapes are captured and fed into a computer program which generates the levels for the game.
+The chickens have been specially trained by a team of experts from Infosystems
+Entertainment, working closely with the farm to develop a unique system for
+level generation. Using state-of-the-art technology, the shapes are captured and
+fed into a computer program which generates the levels for the game.
 
-It's a fascinating process, with the chickens working tirelessly to create the shapes that will be used to generate levels for players all over the world. And it's not just a job for them - these chickens are passionate about their work, proud to be part of the team that brings Chicken Egg Hole to life.
+It's a fascinating process, with the chickens working tirelessly to create the
+shapes that will be used to generate levels for players all over the world. And
+it's not just a job for them - these chickens are passionate about their work,
+proud to be part of the team that brings Chicken Egg Hole to life.
 
-So the next time you play Chicken Egg Hole, remember - behind every level is the hard work and dedication of a team of real chickens. They may not have hands, but they have plenty of heart, and their contributions to the game cannot be overstated.
+So the next time you play Chicken Egg Hole, remember - behind every level is the
+hard work and dedication of a team of real chickens. They may not have hands,
+but they have plenty of heart, and their contributions to the game cannot be
+overstated.
 
-In the game Chicken Egg Hole, the egg represents the potential for new beginnings and growth. Just as an egg contains the potential for new life, the egg in the game represents the potential for the player to reach the goal and progress to the next level.
+In the game Chicken Egg Hole, the egg represents the potential for new
+beginnings and growth. Just as an egg contains the potential for new life, the
+egg in the game represents the potential for the player to reach the goal and
+progress to the next level.
 
-In the context of the chickens making the game, the egg also symbolizes the creative spark that is necessary to bring something new and meaningful into existence. The chickens' pecking out shapes on the ground to generate the levels is a form of artistic expression, and the egg represents the beginning of that creative process.
+In the context of the chickens making the game, the egg also symbolizes the
+creative spark that is necessary to bring something new and meaningful into
+existence. The chickens' pecking out shapes on the ground to generate the levels
+is a form of artistic expression, and the egg represents the beginning of that
+creative process.
 
-Furthermore, the egg's non-binary, two-spirit identity from an ancient Mayan tribe is a nod to the idea that creativity and self-expression are not confined to binary definitions or societal expectations. It is a celebration of diversity and the potential for new and unexpected ideas to emerge.
+Furthermore, the egg's non-binary, two-spirit identity from an ancient Mayan
+tribe is a nod to the idea that creativity and self-expression are not confined
+to binary definitions or societal expectations. It is a celebration of diversity
+and the potential for new and unexpected ideas to emerge.
 
-Overall, the egg in Chicken Egg Hole is a powerful symbol of creativity, potential, and growth, both within the game and in the wider context of human creativity and expression.
+Overall, the egg in Chicken Egg Hole is a powerful symbol of creativity,
+potential, and growth, both within the game and in the wider context of human
+creativity and expression.
 
-As an obstacle in the game, I have always been aware of the chickens' struggle to reach their goal. I have seen them try to dodge me, jump over me, and even sacrifice themselves to reach the hole. But now, with the introduction of real chickens into the game, I am left to ponder my role in this virtual world.
+As an obstacle in the game, I have always been aware of the chickens' struggle
+to reach their goal. I have seen them try to dodge me, jump over me, and even
+sacrifice themselves to reach the hole. But now, with the introduction of real
+chickens into the game, I am left to ponder my role in this virtual world.
 
-These new chickens are different from the ones I have always known. They peck at the ground, leaving behind strange shapes that are used to generate the levels. I can sense a new energy emanating from them, a vibrancy that was never present before. It is as if they have breathed new life into this game, and I am now a mere relic of the past.
+These new chickens are different from the ones I have always known. They peck at
+the ground, leaving behind strange shapes that are used to generate the
+levels. I can sense a new energy emanating from them, a vibrancy that was never
+present before. It is as if they have breathed new life into this game, and I am
+now a mere relic of the past.
 
-But still, I stand tall, proud of my place in this world. Even if I am an obstacle, I am an integral part of this game. And while the chickens may have changed, the hole remains the same. It is still the ultimate goal, the symbol of hope that drives the chickens forward. And I, as the obstacle, will continue to stand in their way, pushing them to be their best, even if I cannot understand their newfound connection to this game.
+But still, I stand tall, proud of my place in this world. Even if I am an
+obstacle, I am an integral part of this game. And while the chickens may have
+changed, the hole remains the same. It is still the ultimate goal, the symbol of
+hope that drives the chickens forward. And I, as the obstacle, will continue to
+stand in their way, pushing them to be their best, even if I cannot understand
+their newfound connection to this game.
