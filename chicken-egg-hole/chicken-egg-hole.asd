@@ -6,7 +6,6 @@
 						(:file "point")
 						(:file "thing")
 						(:file "game")))
-
 (defsystem #:chicken-egg-hole/sdl
 	:author "chee <yay@chee.party>"
 	:version "1"
