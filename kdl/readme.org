@@ -56,23 +56,24 @@ This implementation of KDL is spec-compliant, but the test-cases differ from the
 Like [[https://github.com/kdl-org/kdl-rs][kdl-rs]], multiple properties with the same name are allowed and all
 duplicated *will be preserved*.
 
-*** Really large numbers
-Very big floats max out at =*most-positive-double-float*=.
-For example:
-- Input :: ="chubby-number 1e1000"=
-- Output :: ="chubby-number 1.7976931348623157e308"=
-
 *** Exponent representation
 - Exponents use lowercase e
-  - official tests :: 1.1E-100
-  - :kdl/t :: 1.1e-100
+  - official tests :: ~1.1E-100~
+  - :kdl/t :: ~1.1e-100~
 - Positive exponents have no plus
-  - official tests ::  1.1E+100
-  - :kdl/t :: 1.1e100
+  - official tests ::  ~1.1E+100~
+  - :kdl/t :: ~1.1e100~
 - Non-integer numbers always have a decimal point:
-  - official tests :: 1E+100
-  - :kdl/t :: 1.0e100
-**** Lisp implementation differences
+  - official tests :: ~1E+100~
+  - :kdl/t :: ~1.0e100~
+
+*** Really large numbers
+Very big floats max out at ~*most-positive-double-float*~.
+For example:
+- Input :: ~"chubby-number 1e1000"~
+- Output :: ~"chubby-number 1.7976931348623157e308"~
+
+*** Lisp implementation differences
 
 The tests for the exponent formats are based on the output from SBCL. The
 library works on at least GNU CLISP and ECL, but the floating point number
